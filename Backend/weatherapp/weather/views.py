@@ -39,3 +39,9 @@ def getWeather(request, **kwargs):
     
     else :
         return JsonResponse({'error' : 'Some error occured'}, status=400)
+    
+
+
+
+        
+    
